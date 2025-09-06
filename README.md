@@ -28,8 +28,7 @@ CHAT_BOT/
 │── user_profile.json # Stores user preferences/profile data
 │── Models/
 │ └── model download links.txt # Instructions/links for downloading models
-│── requirements.txt # Python dependencies**
-
+│── requirements.txt # Python dependencies
 
 ---
 
