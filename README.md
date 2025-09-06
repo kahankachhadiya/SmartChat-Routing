@@ -19,7 +19,6 @@ It features a **Tkinter-based UI**, multimodel routing, and persistent user prof
 ## ⚙️ Installation
 
 ### 1. Clone the Repository
-```bash
 git clone https://github.com/yourusername/CHAT_BOT.git
 cd CHAT_BOT
 
