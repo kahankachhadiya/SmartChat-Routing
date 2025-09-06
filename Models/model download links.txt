@@ -1,0 +1,29 @@
+# 1. Hermes 2 Pro (General Assistant)
+python -c "from huggingface_hub import snapshot_download; snapshot_download(repo_id='NousResearch/Hermes-2-Pro-Llama-3-8B-GGUF', local_dir='hermes2pro', local_dir_use_symlinks=False, allow_patterns=['*Q6_K.gguf'])"
+
+# 2. DeepSeek-Coder (Coding)
+python -c "from huggingface_hub import snapshot_download; snapshot_download(repo_id='TheBloke/deepseek-coder-6.7B-instruct-GGUF', local_dir='deepseek', local_dir_use_symlinks=False, allow_patterns=['*Q6_K.gguf'])"
+
+# 3. MythoMax (Creative)
+python -c "from huggingface_hub import snapshot_download; snapshot_download(repo_id='TheBloke/MythoMax-L2-13B-GGUF', local_dir='mythomax', local_dir_use_symlinks=False, allow_patterns=['*Q5_K_M.gguf'])"
+
+# 4. OpenChat 3.5 (Multilingual)
+python -c "from huggingface_hub import snapshot_download; snapshot_download(repo_id='TheBloke/OpenChat-3.5-0106-GGUF', local_dir='openchat', local_dir_use_symlinks=False, allow_patterns=['*Q5_K_M.gguf'])"
+
+# 5. OpenHermes 2.5 (Factual)
+python -c "from huggingface_hub import snapshot_download; snapshot_download(repo_id='TheBloke/OpenHermes-2.5-Mistral-7B-GGUF', local_dir='openhermes', local_dir_use_symlinks=False, allow_patterns=['*Q6_K.gguf'])"
+
+# 6. Phi-2 (Router)
+python -c "from huggingface_hub import snapshot_download; snapshot_download(repo_id='TheBloke/phi-2-GGUF', local_dir='phi2', local_dir_use_symlinks=False, allow_patterns=['*Q4_K_M.gguf'])"
+
+# 7. TinyLLaMA (Summarizer)
+python -c "from huggingface_hub import snapshot_download; snapshot_download(repo_id='TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF', local_dir='tinyllama', local_dir_use_symlinks=False, allow_patterns=['*Q4_0.gguf'])"
+
+# 8. Mistral-Instruct (Doc QA)
+python -c "from huggingface_hub import snapshot_download; snapshot_download(repo_id='TheBloke/Mistral-7B-Instruct-v0.2-GGUF', local_dir='mistralinstruct', local_dir_use_symlinks=False, allow_patterns=['*Q6_K.gguf'])"
+
+# 9. Gemma 1.1 2B (Tool Use)
+python -c "from huggingface_hub import snapshot_download; snapshot_download(repo_id='MaziyarPanahi/gemma-1.1-2b-it-GGUF', local_dir='gemma', local_dir_use_symlinks=False, allow_patterns=['*Q4_K_M.gguf'])"
+
+# 10. NeuralBeagle (Unfiltered)
+python -c "from huggingface_hub import snapshot_download; snapshot_download(repo_id='TheBloke/NeuralBeagle14-7B-GGUF', local_dir='neuralbeagle', local_dir_use_symlinks=False, allow_patterns=['*Q4_K_M.gguf'])"

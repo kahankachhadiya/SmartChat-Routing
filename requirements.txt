@@ -1,0 +1,15 @@
+# Core LLM & Embedding Libraries
+llama-cpp-python[server] >=0.2.67
+chromadb >=0.4.24
+sentence-transformers >=2.2.2
+
+# GPU & ML Acceleration (adjust based on your platform)
+torch  # Required for sentence-transformers (CUDA auto-selects if available)
+numpy
+
+# Optional monitoring & logging
+tqdm
+psutil
+
+# Compatibility
+typing-extensions >=4.5.0
