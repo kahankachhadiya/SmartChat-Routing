@@ -17,18 +17,22 @@ It features a **Tkinter-based UI**, multimodel routing, and persistent user prof
 ---
 
 ## 📂 Project Structure
+
+```plaintext
 CHAT_BOT/
-│── chat_logger.py # Handles logging of chats
-│── loader.py # Loads models and embeddings
-│── main.py # Entry point for running the chatbot
-│── memory.py # Manages memory storage and retrieval with ChromaDB
-│── profile_manager.py # Handles user profiles
-│── router.py # Routes user inputs to appropriate handlers or models
-│── ui.py # Tkinter-based user interface
-│── user_profile.json # Stores user preferences/profile data
-│── Models/
-│ └── model download links.txt # Instructions/links for downloading models
-│── requirements.txt # Python dependencies
+│── chat_logger.py          # Handles logging of chats
+│── loader.py               # Loads models and embeddings
+│── main.py                 # Entry point for running the chatbot
+│── memory.py               # Manages memory storage and retrieval with ChromaDB
+│── profile_manager.py      # Handles user profiles
+│── router.py               # Routes user inputs to appropriate handlers or models
+│── ui.py                   # Tkinter-based user interface
+│── user_profile.json       # Stores user preferences/profile data
+│
+├── Models/
+│   └── model download links.txt   # Instructions/links for downloading models
+│
+└── requirements.txt        # Python dependencies
 
 ---
 
